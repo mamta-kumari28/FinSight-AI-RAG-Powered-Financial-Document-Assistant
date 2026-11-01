@@ -1,20 +1,31 @@
-# Virtual environment
-.venv/
-
-# Secrets
+# Credentials and private configuration
 .env
 .env.*
 !.env.example
-
-# Python cache
+.streamlit/secrets.toml
+# Environments and caches
+.venv/
+venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
-
-# Local data and reports
-data/uploads/
+.coverage
+.coverage.*
+htmlcov/
+.pyright/
+# Private uploads, indexes, and reports
 data/chroma/
+data/uploads/
+data/private/
 reports/
-
-# Editor settings
+*.sqlite3
+*.sqlite3-*
+*.db
+# Generated validation outputs
+artifacts/
+test-results/
+playwright-report/
+# Editors and OS files
 .vscode/
+.idea/
+.DS_Store

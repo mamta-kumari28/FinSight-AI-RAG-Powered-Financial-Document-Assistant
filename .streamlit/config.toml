@@ -1,0 +1,9 @@
+[server]
+headless = true
+maxUploadSize = 20
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showErrorDetails = "none"

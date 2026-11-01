@@ -1,0 +1,4 @@
+# Generated sample documents and actual screenshots are binary assets.
+*.pdf binary
+*.xlsx binary
+*.png binary
